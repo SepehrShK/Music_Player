@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.min.css">
-    <title>Document</title>
+    <title>Music player</title>
 </head>
 <body>
+    <div class="main_box">
+        <div class="song1">
+            <div class="photo">
+                <img src="Resources/cover-1.png" alt="">
+            </div>
+            <div class="description">
+                <p class="song_name">Lost in the City Lights</p>
+                <p class="song_singer">Cosmo Sheldrake</p>
+            </div>
+            <div class="progress_container">
+                <div class="progress_bar"></div>
+            </div>
+            <audio class="song" src="Resources/lost-in-city-lights-145038.mp3"></audio>
+        </div>
+        <div class="song2">
+            <div class="photo">
+                <img src="Resources/cover-2.png" alt="">
+            </div>
+            <div class="description">
+                <p class="song_name">Forest Lullaby</p>
+                <p class="song_singer">Lesfm</p>
+            </div>
+            <div class="progress_container">
+                <div class="progress_bar"></div>
+            </div>
+            <audio class="song" src="Resources/forest-lullaby-110624.mp3"></audio>
+        </div>
+        <div class="music_icons">
+            <button class="previous_button" type="button">h<img src="Resources/Stop_and_play_fill-1.svg" alt=""></button>
+            <button class="play_button" type="button">h<img src="Resources/Play_fill.svg" alt=""></button>
+            <button class="next_button" type="button">h<img src="Resources/Stop_and_play_fill.svg" alt=""></button>
+        </div>
+    </div>
     <script src="js/script.js"></script>   
 </body>
 </html>
