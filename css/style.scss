@@ -68,8 +68,8 @@ body {
     justify-content: center;
     .main_box{
         width: 330px;
-        height: 500px;
-        margin: auto;
+        height: auto;
+        margin: auto 10px;
         background-color: $grey2;
         border-radius: 20px;
         padding: 20px;
