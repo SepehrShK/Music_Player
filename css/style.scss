@@ -31,7 +31,7 @@
             display: flex;
             justify-content: space-between;
             color: $grey1;
-            margin-bottom: 3px;
+            margin-bottom: 4px;
             p{
                 margin: 0;
                 font-size: 13px;
@@ -45,7 +45,7 @@
             // overflow: hidden;
             cursor: pointer;
             .progress_bar {
-                width: 50px;
+                width: 0;
                 height: 4px;
                 background-color: $pink;
                 border-radius: 2px;
@@ -117,11 +117,10 @@ body {
         border-radius: 20px;
         padding: 20px;
         .song1{
-            display: none;
             @include songSetup()
         }
         .song2{
-            // display: none;
+            display: none;
             @include songSetup()
         }
     }
